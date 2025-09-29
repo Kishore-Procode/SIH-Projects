@@ -37,9 +37,9 @@ function App() {
 
   return (
     <>
-      {showOverlay && (
+      {/* {showOverlay && (
         <Overlay onClose={() => setShowOverlay(false)} />
-      )}
+      )} */}
 
       <div className="min-h-screen bg-gray-50">
         <Navbar
