@@ -6,7 +6,7 @@ import { Records } from './components/Records';
 import { Reports } from './components/Reports';
 import { Alerts } from './components/Alerts';
 import { GovernmentDashboard } from './components/GovernmentDashboard';
-import Overlay from './components/Overlay';
+import Overlay from './components/overlay';
 
 function App() {
   const [activeTab, setActiveTab] = useState('dashboard');
